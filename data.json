@@ -1,0 +1,23 @@
+{
+    "destinations": [
+      {
+        "name": "London",
+        "price": 2000.0,
+        "image": "img/london2.jpg",
+        "description": "Discover the rich history and vibrant culture of London."
+      },
+      {
+        "name": "Paris",
+        "price": 2400.0,
+        "image": "img/france2.jpg",
+        "description": "Experience the romance and elegance of Paris."
+      },
+      {
+        "name": "New York",
+        "price": 3000.0,
+        "image": "https://example.com/images/newyork.jpg",
+        "description": "Explore the city that never sleeps, New York."
+      }
+    ]
+  }
+  
