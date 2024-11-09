@@ -1,0 +1,83 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+
+.content {
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo negro translúcido detrás del texto */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.icon-box {
+    background-color: #f1f3f5;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: #6c757d;
+}
+
+.section-title h5 {
+    font-weight: bold;
+}
+
+.section-title a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.destination-card img {
+    border-radius: 10px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.destination-card p {
+    margin: 0;
+}
+
+.navbar a {
+    font-size: 1.3rem;
+}
+
+.navbar a:hover {
+    color: #007bff;
+}
