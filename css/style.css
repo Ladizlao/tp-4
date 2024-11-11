@@ -1,83 +1,48 @@
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+    background-color: #f5f5f5;
+}
+.container {
+    background-image: url('img/playa.avif'); /* Ruta de la imagen dentro de la carpeta img */
+    background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    height: 100vh; /* Ocupa la altura total de la pantalla -*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-body, html {
-    height: 100%;
-    font-family: Arial, sans-serif;
-}
-
-
-.content {
-    text-align: center;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5); /* Fondo negro translúcido detrás del texto */
-    padding: 20px;
-    border-radius: 10px;
-}
-
-.content h1 {
-    font-size: 3rem;
-    margin-bottom: 10px;
-}
-
-.content p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-}
-
-.btn {
-    background-color: #007bff;
-    color: white;
-    padding: 15px 30px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 1.2rem;
-}
-
-.btn:hover {
-    background-color: #0056b3;
-}
-
-.icon-box {
-    background-color: #f1f3f5;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+.icon-circle {
+    width: 60px;
+    height: 60px;
+    background-color: #f0f0f0;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 50%;
     font-size: 1.5rem;
-    color: #6c757d;
+    color: #007bff;
 }
 
-.section-title h5 {
+.destination-card, .adventure-card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.destination-card img, .adventure-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.destination-card p, .adventure-card p {
     font-weight: bold;
+    margin-top: 10px;
 }
 
-.section-title a {
-    color: #007bff;
-    text-decoration: none;
-    font-size: 0.9rem;
-}
-
-.destination-card img {
-    border-radius: 10px;
-    height: 150px;
-    object-fit: cover;
-}
-
-.destination-card p {
-    margin: 0;
-}
-
-.navbar a {
-    font-size: 1.3rem;
-}
-
-.navbar a:hover {
-    color: #007bff;
+.navbar.fixed-bottom a {
+    font-size: 1.5rem;
 }

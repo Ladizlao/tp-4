@@ -1,23 +1,14 @@
 {
-    "destinations": [
-      {
-        "name": "London",
-        "price": 2000.0,
-        "image": "img/london2.jpg",
-        "description": "Discover the rich history and vibrant culture of London."
-      },
-      {
-        "name": "Paris",
-        "price": 2400.0,
-        "image": "img/france2.jpg",
-        "description": "Experience the romance and elegance of Paris."
-      },
-      {
-        "name": "New York",
-        "price": 3000.0,
-        "image": "https://example.com/images/newyork.jpg",
-        "description": "Explore the city that never sleeps, New York."
-      }
-    ]
-  }
-  
+  "popularDestinations": [
+    { "name": "London", "price": "$2000.0","rating":"10/10", "image": "https://via.placeholder.com/150", "description": "Descubre la histórica ciudad de Londres con sus monumentos icónicos." },
+    { "name": "Paris", "price": "$2400.0","rating":"10/10", "image": "https://via.placeholder.com/150", "description": "Explora la romántica ciudad de París y su emblemática Torre Eiffel." },
+    { "name": "New York", "price": "$2200.0","rating":"10/10", "image": "https://via.placeholder.com/150", "description": "Vive la vibrante ciudad de Nueva York y su famosa Estatua de la Libertad." },
+    { "name": "Tokyo", "price": "$2800.0","rating":"10/10", "image": "https://via.placeholder.com/150", "description": "Sumérgete en la cultura y modernidad de Tokio, Japón." }
+   ],
+  "adventureTrips": [
+    { "name": "Adventure 1", "price": "$1500.0","rating":"10/10", "image": "https://via.placeholder.com/150", "description": "Una aventura inolvidable en montañas y ríos." },
+    { "name": "Adventure 2", "price": "$1800.0","rating":"10/10", "image": "https://via.placeholder.com/150", "description": "Experiencia extrema en paisajes naturales." },
+    { "name": "Safari en África", "price": "$3200.0","rating":"10/10", "image": "https://via.placeholder.com/150", "description": "Vive una experiencia salvaje con un safari en África." },
+    { "name": "Safari en África", "price": "$3200.0", "rating":"10/10","image": "https://via.placeholder.com/150", "description": "Vive una experiencia salvaje con un safari en África." }
+  ]
+}

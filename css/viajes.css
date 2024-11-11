@@ -1,83 +1,46 @@
-/* General Styles */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
+/* Estilos para íconos */
+.icon {
+  font-size: 1.5rem;
+  color: #007bff;
+}
+
+.footer-icon {
+  font-size: 1.2rem;
+  color: #007bff;
+}
+
+/* Estilos para las tarjetas */
+.card {
+  margin: 10px 0;
+}
+
+.card img {
+  object-fit: cover;
+  width: 100%;
+  height: 150px;
+  border-radius: 8px;
+}
+
+/* Ajustes responsivos */
+@media (min-width: 768px) {
+  /* Vista en tablet y escritorio */
+  #destinations .col-md-4 {
+    max-width: 32%;
+    flex: 0 0 32%;
   }
-  
-  /* Navbar */
-  .navbar {
-    border-bottom: 1px solid #ddd;
+
+  .icon-row i {
+    font-size: 2rem;
   }
-  
-  .navbar .form-control {
-    border-radius: 20px;
-  }
-  
-  /* Iconos de Categorías */
-  .container .bi {
-    font-size: 1.5rem;
-    color: #6c757d;
-  }
-  
-  /* Tarjetas de Destino */
-  #destinations .card {
-    border: none;
-    border-radius: 15px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-  }
-  
-  #destinations .card:hover {
-    transform: translateY(-5px);
-  }
-  
-  #destinations .card img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-  }
-  
-  #destinations .card-body {
-    background-color: #fff;
-    padding: 1rem;
-    text-align: center;
-  }
-  
-  #destinations .card-title {
+}
+
+@media (orientation: portrait) and (max-width: 767px) {
+  /* Vista en dispositivos móviles */
+  .icon {
     font-size: 1.2rem;
-    font-weight: bold;
-    color: #333;
   }
-  
-  #destinations .card-text {
+
+  .footer-icon {
     font-size: 1rem;
-    color: #555;
-    margin-bottom: 0.5rem;
   }
-  
-  #destinations .card-description {
-    font-size: 0.9rem;
-    color: #777;
-  }
-  
-  /* Pie de Navegación */
-  .footer-nav {
-    border-top: 1px solid #ddd;
-  }
-  
-  .footer-nav .bi {
-    font-size: 1.5rem;
-    color: #6c757d;
-  }
-  
-  /* Responsividad */
-  @media (min-width: 768px) {
-    #destinations .card {
-      max-width: 18rem;
-      margin: auto;
-    }
-  }
-  
+}
